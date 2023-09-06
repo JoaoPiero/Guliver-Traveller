@@ -1,0 +1,77 @@
+header {
+  background-color: #72BBFF;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* CSS for the heading text */
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header_div{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.search_div{
+  display: flex;
+  margin: 30px 0px;
+  justify-content: center;
+}
+
+.search_input{
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 14px;
+  outline: none;
+  padding: 6px 12px;
+}
+
+.holder{
+  background-color: #D9D9D9;
+  display: flex;
+  margin: 30px 0px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.accordeon{
+  margin: 10px 0px;
+  display: flex;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.accordeon:hover{
+  cursor: pointer;
+}
+
+.image{
+  height: 250px;
+  width: 250px;
+  background-color: aquamarine;
+  margin: 0px 10px;
+}
+
+.accordeon_body{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.image_holder{
+  display: flex;
+  justify-content: space-around;
+}
+
+.accordeon h2{
+  margin: 35px 0px 15px 0px;
+}
