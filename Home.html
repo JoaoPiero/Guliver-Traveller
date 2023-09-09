@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="Reset.css">
     <link rel="stylesheet" href="Global.css">
     <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Responsive.css"> <!-- Add a new CSS file for responsive styles -->
     <title>Guliver Traveller</title>
 </head>
 <body>
@@ -20,69 +21,136 @@
                     <li>About</li>
                 </ul>
             </div>
-            <input class="search_input" type="text" placeholder="Pesqueisar...">
+            <input class="search_input" type="text" placeholder="Pesquisar no site...">
         </div>
     </header>
 
-    <section class="card">
-        <section>
-        </section>
-        <section>
-            <div style="position: relative;">
-                <details class="accordeon general_accordeon holder">
-                    <summary>
-                        <h2>Centro-oeste</h2>
-                    </summary>
-                    <div>
-                        <h2 class="accordeon_title">Hospedagem</h2>
-                        <div class="image_holder">
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 class="accordeon_title">Locais Turisticos</h2>
-                        <div class="image_holder">
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 class="accordeon_title">Restaurantes</h2>
-                        <div class="image_holder">
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                            <div class="image">
-                            </div>
-                        </div>
-                    </div>
-                </details>
-                <!-- <div class="testemesmo">
-                    a
-                </div> -->
+    
+
+    <section class="shadow_card">
+        
+        <div class="location_input_holder">
+            <input id="location_input" class="search_input" type="text" placeholder="Procurar localização">
+        </div>
+
+        <section id="most_popular">
+            <div class="secction_title_holder">
+                <h3 class="secction_title">Mais buscados do mês</h3>
             </div>
+                <div>
+                    <div class="image_holder">
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="regions">
+
+            <div class="secction_title_holder">
+                <h3 class="secction_title">Principais lugares de cada estado</h3>
+                <p class="secction_subtitle">Escolhido pessoalmente por mim, Gulliver</p>
+            </div>
+            <details class="accordeon general_accordeon holder">
+                <summary>
+                    <h2>Centro-oeste</h2>
+                </summary>
+                <div class="teste">
+                    &nbsp;
+                </div>
+                <div>
+                    <h2 class="accordeon_title">Hospedagem</h2>
+                    <div class="image_holder">
+                        <div class="image">
+                            <img class="photo" src="./images_hospedagem/athos_bulcao_hplus_executive/19e13e14.jpg" alt="awd">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="accordeon_title">Locais Turisticos</h2>
+                    <div class="image_holder">
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="accordeon_title">Restaurantes</h2>
+                    <div class="image_holder">
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                        <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </details>
             <details class="accordeon general_accordeon holder">
                 <summary>
                     <h2>Norte</h2>
@@ -91,14 +159,24 @@
                     <h2 class="accordeon_title">Hospedagem</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -106,14 +184,24 @@
                     <h2 class="accordeon_title">Locais Turisticos</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -121,14 +209,24 @@
                     <h2 class="accordeon_title">Restaurantes</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -141,14 +239,24 @@
                     <h2 class="accordeon_title">Hospedagem</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -156,14 +264,24 @@
                     <h2 class="accordeon_title">Locais Turisticos</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -171,14 +289,24 @@
                     <h2 class="accordeon_title">Restaurantes</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -191,14 +319,24 @@
                     <h2 class="accordeon_title">Hospedagem</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -206,14 +344,24 @@
                     <h2 class="accordeon_title">Locais Turisticos</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -221,14 +369,24 @@
                     <h2 class="accordeon_title">Restaurantes</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -241,14 +399,24 @@
                     <h2 class="accordeon_title">Hospedagem</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -256,14 +424,24 @@
                     <h2 class="accordeon_title">Locais Turisticos</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -271,14 +449,24 @@
                     <h2 class="accordeon_title">Restaurantes</h2>
                     <div class="image_holder">
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                         <div class="image">
+                            <img class="photo" src="" alt="">
+                            <img class="like" src="./icons/Heart.svg" alt="">
                         </div>
                     </div>
                 </div>
