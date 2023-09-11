@@ -75,10 +75,29 @@ header {
   padding: 6px 12px;
 }
 
-.image_holder {
+.image_holder{
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
+}
+
+.images{
+  position: relative;
+}
+
+.images p{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background for frosted glass effect */
+  backdrop-filter: blur(10px); /* Apply a blur to create the glass-like effect */
+  color: #000; /* Text color for the label */
+  font-weight: bold;
+  padding: 8px 16px; /* Adjust padding as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  pointer-events: none;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
 }
 
 .image {
