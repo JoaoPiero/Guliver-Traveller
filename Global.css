@@ -75,33 +75,41 @@ header {
   padding: 6px 12px;
 }
 
-.image_holder{
+.image_holder {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
 
-.image{
-  background-color: aquamarine;
+.image {
+  background-color: rgba(255, 255, 255, 0.2); /* Glassmorphism background color with opacity */
   height: 250px;
   width: 250px;
   position: relative;
   overflow: hidden;
+  border-radius: 16px; /* Add some border radius for a smoother look */
+  backdrop-filter: blur(8px); /* Apply backdrop filter for frosted glass effect */
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, background 0.2s;
 }
 
-.image .photo{
-  width: 250px;
-  height: 250px;
+.image .photo {
+  width: 100%; /* Set the photo's width to 100% to cover the entire container */
+  height: 100%; /* Set the photo's height to 100% to cover the entire container */
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover; /* Make sure the image covers the entire container */
   transition: transform .2s;
+
 }
 
-
-.photo{
+.photo {
   position: relative;
 }
+
+.photo:hover {
+  transform: scale(1.4);
+}
+
 
 .photo:hover{
   transform: scale(1.4);
