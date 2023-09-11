@@ -102,8 +102,8 @@ header {
 
 .image {
   background-color: rgba(255, 255, 255, 0.2); /* Glassmorphism background color with opacity */
-  height: 250px;
-  width: 250px;
+  height: 14vw;
+  width: 14vw;
   position: relative;
   overflow: hidden;
   border-radius: 16px; /* Add some border radius for a smoother look */
