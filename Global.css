@@ -118,7 +118,6 @@ header {
   cursor: pointer;
   object-fit: cover; /* Make sure the image covers the entire container */
   transition: transform .2s;
-
 }
 
 .photo {
