@@ -10,7 +10,6 @@
   display: flex;
   justify-content: center;
   padding: 8px;
-  background-color: #f8f8f8;
   color: #215e97;
   transition: background-color 0.2s; /* Add a 0.3-second transition for background-color */
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Add outer shadow all around */
