@@ -1,0 +1,118 @@
+h1{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+header {
+  background: #307219;
+  background: #307219;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.card{
+  margin: 0px 20px;
+}
+
+.header_div{
+  padding: 20px 35px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu_options li{
+  display: inline;
+  margin: 0px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#menu_options li:hover{
+  border-bottom: #569fcf 2px solid;
+}
+
+.submenu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.submenu .submenu_icon{
+  font-size: 18px;
+  margin: 0px 16px;
+}
+
+.search_input{
+  width: 350px;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 14px;
+  outline: none;
+  padding: 6px 12px;
+}
+
+.banner{
+  background-color: #E4E4E4;
+  height: 300px;
+}
+
+.image_holder{
+
+}
+
+.image_holder img{
+  background-color: aqua;
+  height: 14vw;
+  width: 14vw;
+}
+
+.image_subtitle{
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.saiba_mais{
+  width: fit-content;
+  padding: 3px 10px;
+  margin: 8px auto 0px auto;
+  background-color: #449926;
+  border-radius: 8px;
+  color: #fff;
+  outline: none;
+  border: 0;
+}
+
+.saiba_mais:hover{
+  background-color: #235213;
+}
+
+.about{
+  background-color: #449926;
+  height: 100px;
+  padding: 100px 0px;
+}
+
+.about_image_holder{
+  background-color: #000;
+  height: 280px;
+  width: 30%;
+  border-radius: 150px;
+  margin-left: -100px;
+}
+
+.about_text_div{
+  width: 40%;
+}
+.about_text_div p{
+  font-size: 18px;
+}
+
