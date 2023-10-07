@@ -1,3 +1,73 @@
+@media only screen and (max-width: 800px) {
+  h1{
+    font-size: 22px !important;
+  }
+
+  .header_div{
+    padding: 20px 20px !important;
+  }
+
+  .submenu{
+    margin: 8px 0px;
+    overflow: scroll;
+    height: 25px;
+  }
+
+  .submenu_list{
+    white-space: nowrap;
+
+  }
+
+  .submenu_icon{
+    margin: auto;
+  }
+
+  .submenu_icon{
+    font-size: 12px !important;
+    display: flex;
+  }
+
+  .scroll_div{
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .mais_buscados_section{
+    padding: 0px 20px;
+  }
+
+  .mais_buscados_div{
+    width: fit-content;
+    height: 270px;
+  }
+
+  .image_holder img{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0px 20px;
+  }
+
+  .about{
+    display: block !important;
+    height: unset !important;
+    padding: 20px 10px !important;
+  }
+
+  .about_image_holder {
+    margin-left: 0px !important;
+    width: unset !important;
+  }
+
+  .about_text_div{
+    width: unset !important;
+    margin-top: 20px;
+  }
+
+  .about_text_div p{
+    font-size: 18px !important;
+  }
+}
+
 h1{
   font-size: 26px;
 }
@@ -115,4 +185,3 @@ header {
 .about_text_div p{
   font-size: 18px;
 }
-
