@@ -51,10 +51,12 @@
     display: block !important;
     height: unset !important;
     padding: 20px 10px !important;
+    margin-top: 140px !important;
   }
 
   .about_image_holder {
     margin-left: 0px !important;
+    margin-top: -140px;
     width: unset !important;
   }
 
