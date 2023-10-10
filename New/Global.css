@@ -29,9 +29,15 @@
     display: flex;
   }
 
+  .banner{
+    height: unset !important;
+  }
+
   .scroll_div{
     width: 100%;
-    overflow: scroll;
+    height: 320px;
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
 
   .mais_buscados_section{
@@ -62,9 +68,15 @@
     width: unset !important;
   }
 
+  .about_image_holder img{
+    margin: 20px 0px 0px -20px;
+    height: 350px !important;
+  }
+
   .about_text_div{
     width: unset !important;
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px !important;
+    padding: 0px 30px !important;
   }
 
   .about_text_div p{
@@ -145,7 +157,6 @@ header {
 }
 
 .banner{
-  background-color: #E4E4E4;
   height: 300px;
 }
 
