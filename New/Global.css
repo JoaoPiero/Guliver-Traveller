@@ -75,7 +75,9 @@ h1{
 }
 
 h2{
-  font-size: 20px;
+  font-size: 25px;
+  margin: 40px;
+  font: 900;
 }
 
 header {
@@ -152,9 +154,10 @@ header {
 }
 
 .image_subtitle{
-  font-size: 18px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
+  color: #6f6d6d;
 }
 
 .saiba_mais{
