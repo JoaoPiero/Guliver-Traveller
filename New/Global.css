@@ -70,6 +70,10 @@
   }
 }
 
+*{
+  font-family: 'Arial Narrow', sans-serif !important;
+}
+
 h1{
   font-size: 26px;
 }
@@ -143,6 +147,11 @@ header {
   height: 300px;
 }
 
+.banner img{
+  object-fit: fill;
+  width: 100%;
+}
+
 .image_holder{
 
 }
@@ -179,20 +188,20 @@ header {
   margin-top: 100px;
   background-color: #449926;
   height: 100px;
-  padding: 100px 0px;
+  padding: 150px 0px;
   color: #fff;
 }
 
 .about_image_holder{
-  background-color: #000;
-  height: 280px;
-  width: 30%;
-  border-radius: 150px;
-  margin-left: -100px;
+}
+
+.about_image_holder img{
+  height: 400px;
 }
 
 .about_text_div{
   width: 40%;
+  margin-left: 150px;
 }
 .about_text_div p{
   font-size: 18px;
