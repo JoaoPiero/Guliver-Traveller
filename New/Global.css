@@ -17,16 +17,18 @@
 
   .submenu_list{
     white-space: nowrap;
-
+    
   }
 
   .submenu_icon{
     margin: auto;
+    
   }
 
   .submenu_icon{
     font-size: 12px !important;
     display: flex;
+   
   }
 
   .banner{
@@ -187,10 +189,10 @@ header {
 
 .saiba_mais{
   width: fit-content;
-  padding: 3px 10px;
+  padding: 5px 15px;
   margin: 8px auto 0px auto;
   background-color: #449926;
-  border-radius: 8px;
+  border-radius: 15px;
   color: #fff;
   outline: none;
   border: 0;
