@@ -5,6 +5,10 @@
     font-size: 22px !important;
   }
 
+  .mobile_view{
+  display: block !important;
+  }
+
   .header_div{
     padding: 20px 20px !important;
   }
@@ -15,17 +19,30 @@
   
   .header_div{
     justify-content: center !important;
+    align-items: center;
+  }
+
+  .dropdown_menu{
+    font-size: 25px;
+    display: block !important;
+    align-self: flex-start;
   }
 
   .submenu{
     margin: 8px 0px;
     overflow: scroll;
     height: 25px;
+    display: block !important;
   }
+
+  .submenu_div .arrow{
+    margin-top: -15px;
+  }
+  
 
   .submenu_list{
     white-space: nowrap;
-    margin-left: 30px;
+    text-align: center;
   }
 
   .submenu_icon{
@@ -36,7 +53,6 @@
   .submenu_icon{
     font-size: 12px !important;
     display: flex;
-   
   }
 
   .banner{
@@ -50,8 +66,8 @@
     overflow-y: hidden;
   }
 
-  .mais_buscados_section{
-    padding: 0px 20px;
+  .mais_buscados_section .arrow{
+    font-size: 25px;
   }
 
   .mais_buscados_div{
@@ -117,6 +133,10 @@ header {
   display: flex;
   justify-content: center;
   font-weight: 900;
+}
+
+.mobile_view{
+  display: none;
 }
 
 .card{

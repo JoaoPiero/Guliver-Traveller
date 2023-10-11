@@ -23,6 +23,7 @@
 
   <header>
     <div class="header_div">
+      <i class="bi bi-list dropdown_menu mobile_view"></i>
       <h1>Gulliver Traveller</h1>
       <div id="menu_option_holder">
         <ul id="menu_options">
@@ -34,16 +35,21 @@
   </header>
 
   <section>
-    <div class="submenu_div">
+    
+    <div class="submenu_div d-flex align-items-center">
+      <i class="bi bi-caret-left-fill mobile_view arrow"></i>
       <ul class="submenu">
         <li class="submenu_list d-flex">
+          
           <i class="bi bi-house-door-fill submenu_icon">Home</i>
           <i class="bi bi-houses submenu_icon">Hospedagem</i>
           <i class="bi bi-car-front submenu_icon">Aluguel de carros</i>
           <i class="bi bi-geo-alt submenu_icon">Pontos turísticos</i>
           <i class="bi bi-shop submenu_icon">Restaurantes</i>
+
         </li>
       </ul>
+      <i class="bi bi-caret-right-fill mobile_view arrow"></i>
     </div>
     <div class="d-flex justify-content-center mt-3">
       <input class="search_input" type="text" placeholder="Buscar">
@@ -61,37 +67,41 @@
       <div class="">
         <h2>Mais buscados do mês</h2>
       </div>
-      <div class="scroll_div">
-        <div class="d-flex justify-content-around mt-3 mais_buscados_div">
-          <div class="image_holder">
-            <img src="../New/images/main/hoteis-saopaulo.png" alt="Hoteis em Sao Paulo">
-            <div class="d-flex flex-column">
-              <p class="image_subtitle">Hoteis em<br>São Paulo</p>
-              <button class="saiba_mais">Saiba mais</button>
+      <div class="d-flex align-items-center">
+        <i class="bi bi-caret-left-fill mobile_view arrow"></i>
+        <div class="scroll_div d-flex">
+            <div class="d-flex justify-content-around mt-3 mais_buscados_div">
+              <div class="image_holder">
+                <img src="../New/images/main/hoteis-saopaulo.png" alt="Hoteis em Sao Paulo">
+                <div class="d-flex flex-column">
+                  <p class="image_subtitle">Hoteis em<br>São Paulo</p>
+                  <button class="saiba_mais">Saiba mais</button>
+                </div>
+              </div>
+              <div class="image_holder">
+                <img src="../New/images/main/pontosturisticos-gramado.png" alt="Pontos Turisticos em gramado ">
+                <div class="d-flex flex-column">
+                  <p class="image_subtitle">Pontos Turisticos<br>de Gramado</p>
+                  <button class="saiba_mais">Saiba mais</button>
+                </div>
+              </div>
+              <div class="image_holder">
+                <img src="../New/images/main/happyhour-rj.png" alt="Happy Hour no Rio de Janeiro">
+                <div class="d-flex flex-column">
+                  <p class="image_subtitle">Happy Hour no<br>Rio de Janeiro</p>
+                  <button class="saiba_mais">Saiba mais</button>
+                </div>
+              </div>
+              <div class="image_holder">
+                <img src="../New/images/main/restaurantes-recife.png" alt="Restaurantes em Recife">
+                <div class="d-flex flex-column">
+                  <p class="image_subtitle">Restaurantes em<br>Recife</p>
+                  <button class="saiba_mais">Saiba mais</button>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="image_holder">
-            <img src="../New/images/main/pontosturisticos-gramado.png" alt="Pontos Turisticos em gramado ">
-            <div class="d-flex flex-column">
-              <p class="image_subtitle">Pontos Turisticos<br>de Gramado</p>
-              <button class="saiba_mais">Saiba mais</button>
-            </div>
-          </div>
-          <div class="image_holder">
-            <img src="../New/images/main/happyhour-rj.png" alt="Happy Hour no Rio de Janeiro">
-            <div class="d-flex flex-column">
-              <p class="image_subtitle">Happy Hour no<br>Rio de Janeiro</p>
-              <button class="saiba_mais">Saiba mais</button>
-            </div>
-          </div>
-          <div class="image_holder">
-            <img src="../New/images/main/restaurantes-recife.png" alt="Restaurantes em Recife">
-            <div class="d-flex flex-column">
-              <p class="image_subtitle">Restaurantes em<br>Recife</p>
-              <button class="saiba_mais">Saiba mais</button>
-            </div>
-          </div>
         </div>
+        <i class="bi bi-caret-right-fill mobile_view arrow"></i>
       </div>
     </div>
   </section>
@@ -186,11 +196,6 @@
           </button>
         </div>
       </div>
-    </div>
-
-    <div id="footer_copyright">
-      &#169
-      2023 Todos os Direitos Reservados
     </div>
   </footer>
 
