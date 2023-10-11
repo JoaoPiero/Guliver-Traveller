@@ -9,6 +9,14 @@
     padding: 20px 20px !important;
   }
 
+  #menu_option_holder{
+    display: none !important;
+  }
+  
+  .header_div{
+    justify-content: center !important;
+  }
+
   .submenu{
     margin: 8px 0px;
     overflow: scroll;
@@ -17,7 +25,7 @@
 
   .submenu_list{
     white-space: nowrap;
-
+    margin-left: 30px;
   }
 
   .submenu_icon{
