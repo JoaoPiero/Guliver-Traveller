@@ -176,6 +176,12 @@ header {
 .submenu .submenu_icon{
   font-size: 18px;
   margin: 0px 16px;
+  padding: 4px;
+}
+
+.submenu_icon:hover{
+  cursor: pointer;
+  background-color: #dddddd;
 }
 
 .search_input{
