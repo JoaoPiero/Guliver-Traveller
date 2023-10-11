@@ -71,7 +71,7 @@
   }
 
   .mais_buscados_div{
-    width: fit-content;
+    width: fit-content !important;
     height: 270px;
   }
 
@@ -193,6 +193,14 @@ header {
 
 .banner img{
   object-fit: fill;
+  width: 100%;
+}
+
+.scroll_div{
+  width: 100%;
+}
+
+.mais_buscados_div{
   width: 100%;
 }
 
