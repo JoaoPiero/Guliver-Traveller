@@ -177,6 +177,7 @@ header {
   font-size: 18px;
   margin: 0px 16px;
   padding: 4px;
+  border-radius: 40px;
 }
 
 .submenu_icon:hover{
