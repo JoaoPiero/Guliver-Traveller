@@ -286,7 +286,7 @@ footer {
 }
 
 #footer_content {
-  background-color: var(--color-neutral-10);
+  background-color: #444444;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
